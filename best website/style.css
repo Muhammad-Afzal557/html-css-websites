@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
+.nav-bar{
+    height: 70px;
+    /* background-color: wheat; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-transform: capitalize;
+    margin: 20px;
+}
+.logo{
+    background-image: url(digital.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 149px;
+    margin-top: 14px;
+    margin-left: 40px;
+    /* margin-right: 10px; */
+
+}
+
+#para{
+    margin-right: 300px;
+    margin-top: 90px;
+    font-size: 24px;
+}
+a{
+    margin: 28px;
+    /* margin-top: 90px; */
+    /* padding-top: 100px; */
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+
+}
+.bar{
+    margin-top: 90px;
+    text-decoration: none;
+}
+.hero-section{
+    display: flex;
+
+}
+#heading1{
+
+    /* margin: 40px; */
+    text-align: justify;
+    width: 550px;
+    margin-left: 70px;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#para1{
+    
+    /* margin: 40px; */
+    text-align: justify;
+    width: 550px;
+    margin-left: 70px;
+    /* margin-top: 150px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main-image{
+    background-image: url(mainpicture.avif);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.main-section{
+    display: flex;
+}
+.section{
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    font-size: 14px;
+    margin: 20px;
+    margin-left: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+h2{
+    text-transform: capitalize;
+}
+/* about */
+.about{
+    display: flex;
+    border: none;
+    outline: none;
+    width: auto;
+    height: 600px;
+    background-color: rgb(231, 229, 229,0.7);
+}
+#right{
+   width: 400px;
+   height: 300px;
+   background-image: url(about12.jpg);
+   background-size: cover;
+}
+#center{
+    width: 600px;
+    height: 600px;
+    background-image: url(mainabout1.jpeg);
+    background-size: cover;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+ }
+ #bottom{
+    width: 384px;
+    height: 300px;
+    background-image: url(aboout.jpeg);
+    background-size: cover;
+    position: relative;
+    bottom: 299px;
+ }
+ h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+ }
+ button{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: white;
+    text-transform: capitalize;
+    /* font-size: 17px; */
+    font-weight: lighter;
+ }
+.images{
+    display: flex;
+    justify-content: left;
+    width: 900px;
+    height: 600px;
+    background-image: url(aaaaaaaa.jpeg);
+    background-size: cover;
+    position: relative;
+    bottom: 300px;
+}
